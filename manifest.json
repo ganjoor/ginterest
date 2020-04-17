@@ -1,0 +1,34 @@
+{
+
+    "manifest_version": 2,
+    "name": "Ganjoor Pinterest Suggestion Tool",
+    "version": "1.0",
+  
+    "description": "Adds a button to suggest related ganjoor.net poems for Pinterest items",
+    "homepage_url": "https://ganjoor.net",
+  
+    "icons": {
+      "48": "icons/ganjoor-48.png",
+      "96": "icons/ganjoor-96.png"
+    },
+
+    "browser_specific_settings": {
+      "gecko": {
+        "id": "ginterest-ganjoor@ganjoor.net"
+      }
+    },
+    
+    "permissions": [
+        "activeTab"
+    ],
+
+    "browser_action": {
+        "default_icon": "icons/ganjoor-32.png",
+        "default_title": "پیشنهاد شعر"
+    },
+
+    "background": {
+        "scripts": ["openganjoor.js"]
+    }
+  
+  }
