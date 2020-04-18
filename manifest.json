@@ -2,7 +2,7 @@
 
     "manifest_version": 2,
     "name": "Ganjoor Pinterest Suggestion Tool",
-    "version": "1.0",
+    "version": "1.1",
   
     "description": "Adds a button to suggest related ganjoor.net poems for Pinterest items",
     "homepage_url": "https://ganjoor.net",
