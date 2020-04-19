@@ -8,7 +8,7 @@ function createPopup(url) {
 }
 
 browser.browserAction.onClicked.addListener((tab) => {
-    if(tab.url.includes('pinterest.com')){
+    if(tab.url.includes('pinterest.com')|| tab.url.includes('instagram.com')){
         createPopup(tab.url);
     }
     else{
